@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gaming.css">
+    <title>Início</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <button id="botao-menu" class="botao-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="menu-navegacao" class="menu-navegacao escondido">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="../cards/cards.html">Cards</a></li>
+            </ul>
+        </nav>
+        <img src="imagens/pacman-animacao.gif" id="gif-pacman">
+        <span id="titulo-cabecalho">Início</span>
+    </header>
+
+    <main class="conteiner">
+        <div class="item-fantasma">
+            <h2>HTML</h2>
+            <button id="inky" data-url="HTML/pagehtml.html"><img src="imagens/inky.svg" alt="HTML"></button>
+        </div>
+        <div class="item-fantasma">
+            <h2>CSS</h2>
+            <button id="blinky" data-url="CSS/pagecss.html"><img src="imagens/blinky.svg" alt="CSS"></button>
+        </div>
+        <div class="item-fantasma">
+            <h2>JS</h2>
+            <button id="pinky" data-url="JS/pagejs.html"><img src="imagens/pinky.svg" alt="JS"></button>
+        </div>
+        <div class="item-fantasma">
+            <h2>Github</h2>
+            <button id="clyde" data-url="Github/pagegithub.html"><img src="imagens/clyde.svg" alt="Github"></button>
+        </div>
+    </main>
+
+    <footer id="rodape">
+        <h2>O que você aprenderá</h2>
+        <p>Ao navegar pelo site, você aprenderá os fundamentos de HTML, CSS e JavaScript, além de praticar push e deploy no GitHub.</p>
+        <nav aria-label="Recursos para aprender desenvolvimento web">
+            <a href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a>
+            <a href="https://www.youtube.com/@CursoemVideo" target="_blank" rel="noopener noreferrer">Curso em Vídeo</a>
+            <a href="https://docs.github.com/pt" target="_blank" rel="noopener noreferrer">GitHub Docs</a>
+        </nav>
+
+        <div id="labirinto">
+            <img src="imagens/peca-supesq.png" id="peca-supesq" class="escondido" alt="Peça superior esquerda do labirinto do Pacman">
+            <img src="imagens/peca-supdir.png" id="peca-supdir" class="escondido" alt="Peça superior direita do labirinto do Pacman">
+            <img src="imagens/peca-infdir.png" id="peca-infdir" class="escondido" alt="Peça inferior direita do labirinto do Pacman">
+            <img src="imagens/peca-infesq.png" id="peca-infesq" class="escondido" alt="Peça inferior esquerda do labirinto do Pacman">
+        </div>
+    </footer>
+
+    <script src="gaming.js"></script>
+</body>
+</html>
